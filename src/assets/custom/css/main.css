@@ -1,0 +1,166 @@
+.credits_img{
+    width:60px;
+}
+.cards_img{
+    width: 300px;
+    border-radius: 10px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_box:hover .overlay {
+    opacity: 1;
+}
+.main_event-heading{
+    font-size:24px;
+    margin:auto;
+    padding:0px;
+    margin-bottom:10px;
+    margin-top:40px;
+}
+.card_head{
+    font-size:21px;
+}
+.card_p{
+    font-size:14px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.button_div{
+    text-align: center;
+    display:center;
+    justify-content: center;
+}
+.sign_in_body{
+    width:40%;
+    margin:auto;
+    text-align: center;
+}
+.sign-in-img{
+    width:50%;
+    text-align:left;
+}
+.iq-navbar {
+    position: fixed !important;
+    width: 82% !important;
+}
+.main-head{
+    font-size: 20px;
+    border-left: 3px solid black;
+    padding-left: 6px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.card_box{
+    background-color: #fffaf2;
+}
+.border-box{
+    border:1px solid #e6e2e2;
+    padding:10px;
+    border-radius:10px;
+    justify-content: center;
+    align-items: center;
+}
+.box_layer{
+    background: linear-gradient(138deg, #f1eaff -22.95%, #ecf2ff 104.96%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top:5px;
+    margin-bottom:5px;
+  
+}
+.img_ca{
+    margin-left:5px;
+}
+.card-headding{
+    font-size:18px;
+}
+.counter{
+    font-size:17px;
+}
+.main_heading{
+    font-size:18px;
+}
+.card-p{
+    /* height:107px; */
+}
+.image-detail-page{
+    width:50px;
+    height:50px;
+    border-radius:40px;
+}
+.p_detail-page{
+    font-size:20px;
+
+}
+.text-detail{
+    font-size:15px;
+    margin:0px;
+    padding:10px;
+}
+.header-detail{
+    font-size:20px;
+    font-weight:700;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.nav-pills {
+   border-radius:10px !important;
+}
+.company-body{
+    border:1px solid gray;
+    border-radius:10px;
+    padding:10px;
+}
+.header-comp{
+    border-bottom:1px solid gray;
+    text-align: center;
+}
+.nav-pills .nav-link.active {
+    border-radius: 10px !important;
+}
+.nav-pills .nav-link {
+    background: none;
+    border: 0;
+    border-radius: 10px !important;
+}
+.totalprices{
+    margin-top: 80px;
+}
+.image-pay-box{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 50px;
+    height: 51px;
+    width: 50px;
+}
+.pay_head{
+    margin:0px;
+    margin-top:5px;
+    font-size:10px;
+    color:black;
+}
+.radio_box{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.successful-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}

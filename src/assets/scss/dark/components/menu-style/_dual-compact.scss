@@ -1,0 +1,8 @@
+&.dual-compact{
+    .nav-underline .nav-link:hover {
+        color: #244602;
+      }
+    .nav-underline .active {
+        color: $gray-300;
+      }
+}
